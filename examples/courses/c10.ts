@@ -26,6 +26,5 @@ function makeCoordinate(
 }
 
 const oslo = makeCoordinate(59.9139, 10.7522, 0)
-oslo[0] = 3
-
+const reallyConst = [1,2,3] as const
 console.log(oslo)
